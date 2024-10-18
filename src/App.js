@@ -5,7 +5,7 @@ function App() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/data')
+    axios.get('https://ThreadBackend.onrender.com/api/data')
       .then(response => {
         setData(response.data);
       })
