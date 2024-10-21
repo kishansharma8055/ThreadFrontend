@@ -1,5 +1,21 @@
-import React, { useState, useEffect } from 'react';
+// import React from "react";
+import {Routes, Route} from "react-router-dom";
+import React, { useState, useEffect } from "react";
 import axios from 'axios';
+
+import Navbar from "./componant/Navbar";
+import Home from "./componant/Home";
+import About from "./componant/About";
+import Services from "./componant/Services/Services";
+import Contact from "./componant/Contact";
+import Blogs from "./componant/Blogs/Blogs";
+import Error from "./componant/Error";
+import Footer from "./componant/Footer";
+// import Chatbot from "./componant/myChat/Chatbot";
+import Payments from "./componant/Services/Courses/payment/Payments";
+import HTMLIntro from "./componant/Services/Courses/introduction/HTMLintro";
+import CSSIntro from "./componant/Services/Courses/introduction/CSSintro";
+import Profile from "./componant/UserProfile/Profile";
 
 function App() {
   const [data, setData] = useState(null);
@@ -14,11 +30,27 @@ function App() {
       });
   }, []);
 
+
   return (
-    <div>
-      <h1>Thread Detection Website</h1>
-      <p>{data ? data.message : 'Loading...'}</p>
-    </div>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" Component={Home} />
+        <Route exact path="/about" Component={About} />
+        <Route path="/services" Component={Services} />
+        <Route path="/contact" Component={Contact} />
+        <Route path="/blogs" Component={Blogs} />
+        <Route path="/payments" Component={Payments} />
+        <Route path="/htmlIntro" Component={HTMLIntro} />
+        <Route path="/cssIntro" Component={CSSIntro} />
+        <Route path="/profile" Component={Profile} />
+        <Route Component={Error} />
+      </Routes>
+     
+      <Footer /> 
+      {/* <h1>Thread Detection Website</h1>
+      <p>{data ? data.message : 'Loading...'}</p> */}
+    </>
   );
 }
 

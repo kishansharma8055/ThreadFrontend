@@ -1,0 +1,10 @@
+#first{
+    margin: 10px;
+    /* background-color: aqua; */
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

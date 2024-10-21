@@ -1,0 +1,55 @@
+#courseImg{
+    width: 100%;
+}
+
+#about_home{
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about_home .heading_content .detail{
+    width: 100%;
+    margin: 10px 10px;
+}
+
+.line{
+    background-color: black;
+    height: 1px;
+}
+
+#blog-container{
+    margin: 0px 10px ;
+}
+
+#blog-container .blogsCardData .subscription h4{
+    display: flex;
+    align-items: center;
+	justify-content: center;
+	padding: 2vh 5vh;
+    background-color: rgb(252, 1, 252);
+    color: white;
+    margin: 10px 0;
+}
+
+#blog-container .blogsCardData > h3{
+    margin: 10px 0;
+}
+
+#blog-container .blogsCardData .payment{
+    border: 2px sloid black;
+    background-color: rgb(0, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#blog-container .blogsCardData .payment h4{
+    align-items: center;
+	justify-content: center;
+	padding: 2vh 5vh;
+    /* margin-bottom: 200px; */
+    color: rgb(11, 161, 11);
+}

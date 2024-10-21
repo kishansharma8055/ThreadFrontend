@@ -1,0 +1,100 @@
+#about-home {
+	color: white;
+	font-size: 2rem;
+    background-image: url('../../image/img6.jpeg');
+    position: relative;
+    height: 20rem;
+    width: 100%;
+}
+
+#about-home p{
+    display: flex;
+    color: rgb(61, 255, 13);
+    justify-content: center;
+    padding-top: 8rem;
+}
+
+#blog-container {
+	/* display: flex; */
+	align-items: flex-start;
+	justify-content: space-between;
+	/* padding: 2vh 5vh; */
+}
+
+
+/* Blogs Card style */
+
+
+/* ********** navbar start ********** */
+.navbar{
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+	width: 100%;
+}
+
+.btn-group{
+	align-items: center;
+}
+.btn-group__item{
+	margin: 8px 20px;
+    font-size: 20px;
+	background: none;
+	border: none;
+	color: peru;
+    cursor: pointer;
+}
+/* ********** navbar end ********** */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-card-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-gap: 0.5rem;
+	margin-bottom: 20px;
+}
+
+.card-container{
+    /* border-radius: 5px; */
+    margin: 1% 1%;
+}
+
+.card{
+	padding: 2px;
+	background-color: rgb(240, 240, 217);
+	border-radius: 5px;
+	display: flex;
+	/* margin: 10px; */
+}
+
+.card img{
+    width: 40%;
+	margin: 10px 20px 10px 10px ;
+	background-color: rgba(255, 0, 0, 0.24);
+	border-radius: 5px;
+}
+.card-media{
+    height: 100px;
+    width: 100%;
+}
+
+.card-number{
+    font-size: 1rem;
+}
+
+.card-title{
+    text-transform: capitalize;
+}
+
+.card-tag{
+	background-color: rgb(109, 235, 109);
+	padding: 3px 3px ;
+	border-radius: 5px;
+}

@@ -1,0 +1,50 @@
+/*------------- Features section styling start -------------*/
+#features {
+	padding: 5vw 8vw 5vw 8vw;
+	text-align: center;
+	font-size: 20px;
+}
+
+#features .fea-base {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-gap: 1rem;
+	margin-top: 20px;
+}
+
+#features .fea-box {
+	background: #edf1f2;
+	text-align: start;
+	padding: 1.2rem;
+	border-radius: 6px;
+
+
+	display: flex;
+	justify-content: space-between;
+}
+
+#features .fea-box .fretureData h3 {
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: rgb(46, 46, 59);
+	padding: 13px 0 7px 0;
+}
+
+#features .fea-box .fretureData p {
+	font-size: 1rem;
+	font-weight: 400;
+	color: rgb(70, 70, 87);
+}
+
+img{
+	height: 100px;
+	width: 200px;
+}
+
+.featureImage{
+	/* border: 2px solid black; */
+	padding: 0 15px;
+	/* margin: 3px; */
+}
+
+/*------------- Features section styling end -------------*/
