@@ -4,6 +4,9 @@ import React, { useState } from 'react';
 import Manu from './CourseApi';
 import ManuCard from './CourseCard';
 import Filter from './Filter';
+// backend code start
+
+// backend code end
 
 
 const uniqueList = [
@@ -22,6 +25,9 @@ const Blogs = () => {
 
     const [manuData, setManuData] = useState(Manu);
     const [manuList, setManuList] = useState(uniqueList);
+    // backend code start
+
+    // backend code end
   
     const filterItem = (category) => {
   

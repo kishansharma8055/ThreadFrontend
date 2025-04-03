@@ -11,14 +11,21 @@ import Contact from "./componant/Contact";
 import Blogs from "./componant/Blogs/Blogs";
 import Error from "./componant/Error";
 import Footer from "./componant/Footer";
-// import Chatbot from "./componant/myChat/Chatbot";
+// import Chat from "./componant/myChat/Chatbot";
+import Chat from "./componant/myChat/chat";
 import Payments from "./componant/Services/Courses/payment/Payments";
 import HTMLIntro from "./componant/Services/Courses/introduction/HTMLintro";
 import CSSIntro from "./componant/Services/Courses/introduction/CSSintro";
 import Profile from "./componant/UserProfile/Profile";
 
+// backend start
+import main from "./componant/Services/backend/main";
+// backend end
+
+
 function App() {
   const [data, setData] = useState(null);
+
 
   useEffect(() => {
     axios.get('https://ThreadBackend.onrender.com/api/data')
@@ -44,7 +51,14 @@ function App() {
         <Route path="/htmlIntro" Component={HTMLIntro} />
         <Route path="/cssIntro" Component={CSSIntro} />
         <Route path="/profile" Component={Profile} />
+        {/* <Route path="/chatbot" Component={Chatbot} /> */}
+        <Route path="/chat" Component={Chat} />
         <Route Component={Error} />
+
+        {/* backend start */}
+        <Route path="/main" Component={main} />
+        {/* backend end */}
+
       </Routes>
      
       <Footer /> 

@@ -4,7 +4,7 @@ function Navbar({ filterItem, manuList }) {
   return (
     <>
       <nav className='navbar'>
-        <h3>Choose a Category</h3>
+        <h3>Our Services</h3>
         <div className="btn-group">
           {manuList.map((curElem) => {
               return (

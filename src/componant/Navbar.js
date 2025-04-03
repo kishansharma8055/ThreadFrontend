@@ -35,10 +35,10 @@ const Navbar = () => {
                             {/* <Link to="/Blogs" className='item'>Blogs</Link> */}
                             {/* <Link to="/Login" className='item'>Login</Link> */}
                         </ul>
-                        {/* <div id="profile">
+                        <div id="profile">
                             <Link to="/profile" className='item'>
                                 <img src={profile} alt="profile image" /></Link>
-                        </div> */}
+                        </div>
                     </div>
                     <button id="menu-btn" onClick={menuBtn}>
                         <div className="container">

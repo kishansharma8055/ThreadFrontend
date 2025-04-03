@@ -22,7 +22,7 @@ header {
 	/********* navbar for two color start  *************/
 
 	/* background-color: aqua; */
-	background: linear-gradient(to left, rgb(204, 37, 37), rgb(36, 47, 199)); 
+	background: linear-gradient(to left, rgb(241, 74, 74), rgb(69, 80, 235)); 
 
 	/************ navbar for two color end *************/
 	display: flex;
@@ -66,7 +66,7 @@ header nav ul {
 header nav ul .item {
 	list-style: none;
 	text-transform: capitalize;
-	color: black;
+	color: rgb(255, 255, 255);
 }
 
 header nav ul .item {
@@ -78,7 +78,7 @@ header nav ul .item {
 }
 
 header nav ul .item:hover {
-	color: rgb(255, 255, 255);
+	/* color: rgb(255, 255, 255); */
 	background-color: orange;
 	border-radius: 8px;
 	font-size: 28px;

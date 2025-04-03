@@ -12,7 +12,7 @@ const Profile = () => {
                     <p>age : 20</p>
                     <p>Mobile No. : 123654789</p>
                     <p>Email Id : kishan@gmail.com</p>
-                    <p>Password : 123456</p>
+                    <p>Password : XXXX56</p>
                     </form>
                 </div>
             </section>
@@ -21,7 +21,7 @@ const Profile = () => {
 
             <section id="second">
             <div className="container2">
-                    <h3>You Courses</h3>
+                    <h3>Thank You</h3>
                     <div></div>
                 </div>
             </section>

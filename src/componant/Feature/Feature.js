@@ -9,6 +9,7 @@ import ExpertData from './ExpertApi';
 import Ram from './Ram';
 // import logo from '../image/logo.png';
 import imageUrl from "../../image/profile.png";
+// import imageUr2 from "../../image/kishan.jpg";
 
 const Feature = () => {
 
